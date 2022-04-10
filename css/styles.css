@@ -274,11 +274,16 @@ img {
 }
 
 .hero {
-  /* добавлено, поскольку белый шрифт заголовка героя */
   background-color: #2f303a;
-  /* background-image: url('../images/hero-bg.jpg'); */
+  /* max-width: 1600px; */
+  background-image: linear-gradient(359deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-title {
