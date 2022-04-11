@@ -290,11 +290,16 @@ img {
   margin-left: 8px;
 }
 
-.cases-item-title {
+.cases-card {
+  text-decoration: none;
+}
+
+.cases-card .cases-item-title {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--main-text-color);
 }
 
 .cases-item-text {
@@ -314,6 +319,12 @@ img {
 
   margin-left: 30px;
   margin-bottom: 30px;
+}
+
+.cases-item:hover,
+.cases-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .cases-content {
